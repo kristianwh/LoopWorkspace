@@ -64,7 +64,6 @@ jobs:
           # Profiles patch
 	  curl https://raw.githubusercontent.com/bjorkert/patches/master/profile.patch | git apply
 
-          
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
