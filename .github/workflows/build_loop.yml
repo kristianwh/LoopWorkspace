@@ -62,7 +62,7 @@ jobs:
           curl https://raw.githubusercontent.com/loopnlearn/loopbuildscripts/main/patch/g6g7_sage.patch | git apply
 
           # Profiles patch
-	  curl https://raw.githubusercontent.com/bjorkert/patches/master/profile.patch | git apply
+          curl https://raw.githubusercontent.com/bjorkert/patches/master/profile.patch | git apply
 
 
       # Patch Fastlane Match to not print tables
